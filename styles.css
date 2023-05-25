@@ -1,0 +1,26 @@
+body {
+  background-color: #f2fa8d;
+}
+
+#holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid;
+  margin: 24px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
